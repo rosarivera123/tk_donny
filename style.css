@@ -1,0 +1,106 @@
+/*
+ Theme Name:   Tk Donny
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+ */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+ * {
+ 	/*border: 1px solid red; */
+ 	color:white;
+ }
+ body {
+ 	background-color: #2b3e50;
+ }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	background-color: #df691a
+}
+p{
+	color:#ebebeb ;
+}
+
+.btn-primary:hover{
+	background-color:#df691a;
+}
+
+.container .jumbotron, .container-fluid .jumbotron{
+background-color: #696969;
+height:375px;
+width:700px;
+
+}
+.btn-primary{
+	background-color: #df691a
+}
+.jumbotron .h1, .jumbotron h1{
+	color:white;
+}
+.navbar-default .navbar-nav>li>a{
+	color:white;
+}
+.navbar-default .navbar-brand{
+	color:white;
+}
+div.wpcf7{
+	background-color: #696969
+}
+.h1, h1{
+	color:white;
+}
+a{
+	color: #df691a
+}
+button, html input[type=button], input[type=reset], input[type=submit]{
+background-color: #df691a	
+
+}
+button, input, select, textarea{
+	color:black;
+}
+button, html input[type=button], input[type=reset], input[type=submit]{
+	color:white;
+}
+#searchsubmit{
+	background-color: #696969
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: 	#CC6600;
+   color:white;
+}
+a:focus, a:hover{
+	color: 	#CC6600;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color:white;
+	background-color:#CC6600; 
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	color:white;
+}
+.pager li>a:focus, .pager li>a:hover{
+	color:white;
+	background-color: #df691a;
+}
+.pager .previous>a, .pager .previous>span{
+	color:white;
+	background-color:#df691a; 
+}
+
+.pager li>a, .pager li>span{
+background-color:#df691a; 
+color:white;
+
+}
+.site-info{
+	color:#df691a;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	background-color:#CC6600;
+}
